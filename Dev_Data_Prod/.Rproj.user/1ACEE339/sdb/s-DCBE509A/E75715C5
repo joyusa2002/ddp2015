@@ -1,0 +1,17 @@
+{
+    "contents" : "library(shiny)\n\n# Define UI for application that draws a histogram\nshinyUI(fluidPage(\n  \n  # Application title\n  titlePanel(\"Moving Histogram of mpg for mtcars\"),\n  h3(\"Help: Please move the slider to change the bins and see the histogram\"),\n  \n  # Sidebar with a slider input for the number of bins\n  sidebarLayout(\n    sidebarPanel(\n      sliderInput(\"bins\",\n                  \"Number of bins:\",\n                  min = 1,\n                  max = 40,\n                  value = 20)\n    ),\n    \n    # Show a plot of the generated distribution\n    mainPanel(\n      plotOutput(\"distPlot\")\n    )\n  )\n))",
+    "created" : 1434299342604.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "977530835",
+    "id" : "E75715C5",
+    "lastKnownWriteTime" : 1434830672,
+    "path" : "C:/Users/Mehta/Dev_Data_Prod/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+        "tempName" : "Untitled3"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

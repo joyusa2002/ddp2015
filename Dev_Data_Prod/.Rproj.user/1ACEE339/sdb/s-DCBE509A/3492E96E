@@ -1,0 +1,16 @@
+{
+    "contents" : "---\ntitle       : Developing Data Product App\nsubtitle    : Histogram for mpg using mtcars dataset\nauthor      : Joy Mehta\njob         : Consultant\nframework   : io2012       # {io2012, html5slides, shower, dzslides, ...}\nhighlighter : highlight.js  # {highlight.js, prettify, highlight}\nhitheme     : tomorrow      # \nwidgets     : []            # {mathjax, quiz, bootstrap}\nmode        : selfcontained # {standalone, draft}\nknit        : slidify::knit2slides\n---\n\n## Title\n\nDeveloping Data Product App\nHistogram for mpg using mtcars dataset\n\nBy - Joy Mehta\n\n--- .class #id \n\n## Introduction\n\nThe purpose of this project is to prepare a Moving Histogram. The data used was obtained from R dataset package of \"mtcars\". The analysis and illustration is for miles per gallon or mpg. Visual comparison is by way of the histogram with slider. \n\n--- .class #id \n\n## Project Overview\n\nThis Shiny application is created for the Coursera program's Developing Data Products project. The dataset provided is originally from Motor Trend Road Tests (1974 Motor Trend US magazine) with 32 observations and 11 variables4\nThe programming and computations are performed using RStudio 3.1 series 0.98.1102 package. \n\n--- .class #id\n\n## Application & Function\n\nThe application is created with the standard ui.R and server.R codes using shiny package to prepare panels and sidebars as needed. The slider performs for a maximum of 40 bins and the plot output is by way of the \"hist\" function.\nThe hist function is shown below.\n```{r}\n?hist\nhist\n```\nThe above code shows what histogram does.\n\n--- .class #id\n\n## Summary & Publication\n\nThe project was completed to meet the assignment goals and is published on Github\n\n\n\n",
+    "created" : 1434827626833.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "103094606",
+    "id" : "3492E96E",
+    "lastKnownWriteTime" : 1434910443,
+    "path" : "C:/Users/Mehta/Dev_Data_Prod/Joy_App/JoyAssignment/index.Rmd",
+    "project_path" : "Joy_App/JoyAssignment/index.Rmd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
